@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+import Ubicacion from './components/ubicacion/ubicacion';
+import { useEffect, useContext, useState } from 'react';
 import './App.css';
+import { CreacionContext } from './context/CreacionContext';
+import { getInfoClima } from './service';
 
 function App() {
+  const { setCreado , creado} = useContext(CreacionContext)
+  const [latitud, setLatitud ] = useState(-24.24)
+  const [longitud, setLongitud ] = useState(-64.87)
+  //const [ imagen , setImagen ] = useState()
+
+  if (latitud === undefined && longitud ===undefined){
+    setLatitud(-24.24)
+
+    setLongitud(-64.87)
+  }
+
+  useEffect(()=> {
+    getInfoClima( latitud,longitud )
+    .then((data) => {
+      console.log(data)
+      setCreado(data)     
+      //console.log(data + " DATOS")
+    })
+    .catch((err) => console.log(err));
+  })
+
+  console.log(creado) 
+
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ubicacion />
+      
     </div>
+ 
   );
 }
 
