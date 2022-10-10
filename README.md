@@ -8,12 +8,14 @@
 ## Descripción del Proyecto
 
 En el sitio se podrá ver tarjetas conteniendo ubicaciones indicando los estados climáticos de cada ubicación.
+
 Los datos que podrá ver en cada tarjeta son:
 - Nombre de la ubicación
 - Latitud de la ubicacion
 - Longitud de la ubicación
 - Temperatura actual
 - Velocidad del viento
+
 También podrá eliminar cada tarjeta de ubicación
 
 Un usuario podrá registrarse y así podrá crear una nueva tarjeta de ubicación indicando: nombre de ubicación, latitud y longitud.
