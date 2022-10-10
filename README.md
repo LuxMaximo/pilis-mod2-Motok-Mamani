@@ -35,11 +35,13 @@ Cuenta con:
 - API's del clima:
   - [api.open-meteo.com](https://api.open-meteo.com)
   - [open-meteo.com/en](https://open-meteo.com/en)
-  - [api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy] (https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy
+  - [api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy](https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy
 )
 
 ## Módulo 3 `Desarrollo Frontend con React`
 **Curso Desarrollador Web Fullstack**
 Desarrolladores:
-`Lucas Maximiliano Motok` [LuxMaximo] (https://github.com/LuxMaximo)
-`Ariel Gustavo Mamaní` [arielguti] (https://github.com/arielguti)
+
+`Lucas Maximiliano Motok` [LuxMaximo](https://github.com/LuxMaximo)
+
+`Ariel Gustavo Mamaní` [arielguti](https://github.com/arielguti)
