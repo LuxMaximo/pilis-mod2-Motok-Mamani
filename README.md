@@ -29,13 +29,13 @@ Cuenta con:
 
 ## Tecnologías empleadas
 
-- React: [Create React App] (https://github.com/facebook/create-react-app).
+- React: [Create React App](https://github.com/facebook/create-react-app).
 - GitHub:
 - Visual Studio Code
 - API's del clima:
-- - [api.open-meteo.com] (https://api.open-meteo.com)
-- - [open-meteo.com/en] (https://open-meteo.com/en)
-- - [api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy] (https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy
+  - [api.open-meteo.com](https://api.open-meteo.com)
+  - [open-meteo.com/en](https://open-meteo.com/en)
+  - [api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy] (https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy
 )
 
 ## Módulo 3 `Desarrollo Frontend con React`
