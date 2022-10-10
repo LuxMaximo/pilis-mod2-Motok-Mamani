@@ -1,9 +1,9 @@
 # Curso Fullstack Web Developer
 
-# Módulo 3 - Desarrollo Frontend con React
+## Módulo 3 - Desarrollo Frontend con React
 
-## Trabajo Final Grupal
-## `Sistema Web de Climatología`
+### **Trabajo Final Grupal**
+### `Sistema Web de Climatología`
 
 ## Descripción del Proyecto
 
@@ -38,9 +38,8 @@ Cuenta con:
   - [api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy](https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitude}&longitude=${longitude}&timezone=America/Argentina/Jujuy
 )
 
-## Módulo 3 `Desarrollo Frontend con React`
-**Curso Desarrollador Web Fullstack**
-Desarrolladores:
+
+## Desarrolladores:
 
 `Lucas Maximiliano Motok` [LuxMaximo](https://github.com/LuxMaximo)
 
