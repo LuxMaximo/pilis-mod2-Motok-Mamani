@@ -18,3 +18,11 @@ export const getInfoClima = async ( latitud , longitud  ) => {
     throw new Error('could not fetch information weather');
   }
 };
+/*
+// const   SERVER_DOMAIN = 'https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=-24.18334987471809&longitude=-65.33129361050375&timezone=America/Argentina/Jujuy'
+export const getCards = async (latitud,longitud) => {
+  try {
+    const SERVER_DOMAIN = 
+    `https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=${latitud || 24.179134}&longitude=${longitud || 65.319269}&timezone=America/Argentina/Jujuy `
+    //`https://api.open-meteo.com/v1/forecast?current_weather=tr
+a eso decis*/
